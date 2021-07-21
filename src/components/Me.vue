@@ -1,7 +1,7 @@
 <template>
     <v-card
                 max-width="375"
-                class="mx-auto mt-3"
+                class="mx-auto my-3"
         >
             <v-img
                     src="me.jpg"
@@ -27,9 +27,13 @@
             <v-list class="pa-0">
                 <v-list-item>
                     <v-list-item-content>
-                        <v-list-item-title align="center">About</v-list-item-title>
+                        <v-list-item-title align="center">
+                            <strong>About</strong>
+                        </v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
+
+                <v-divider></v-divider>
 
                 <v-list-item
                         href="adam-cornforth-cv.pdf"
@@ -63,9 +67,13 @@
 
                 <v-list-item>
                     <v-list-item-content>
-                        <v-list-item-title align="center">Contact</v-list-item-title>
+                        <v-list-item-title align="center">
+                            <strong>Contact</strong>
+                        </v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
+
+                <v-divider></v-divider>
 
                 <v-list-item
                         href="mailto:adam@apcdesigner.com"
@@ -92,91 +100,6 @@
 
                     <v-list-item-content>
                         <v-list-item-title>LinkedIn</v-list-item-title>
-                    </v-list-item-content>
-                </v-list-item>
-
-                <v-divider></v-divider>
-
-                <v-list-item>
-                    <v-list-item-content>
-                        <v-list-item-title align="center">Job History</v-list-item-title>
-                    </v-list-item-content>
-                </v-list-item>
-
-                <v-list-item>
-                    <v-list-item-icon>
-                        <v-icon color="#FA503A">
-                            mdi-map-marker
-                        </v-icon>
-                    </v-list-item-icon>
-
-                    <v-list-item-content>
-                        <v-list-item-title>Manchester</v-list-item-title>
-                        <v-list-item-subtitle>Tui Interactive Media, London (full remote)</v-list-item-subtitle>
-                        <v-list-item-subtitle>Street Group, Manchester</v-list-item-subtitle>
-                    </v-list-item-content>
-                </v-list-item>
-
-                <v-list-item>
-                    <v-list-item-icon>
-                        <v-icon color="#FA503A">
-                            mdi-transit-connection
-                        </v-icon>
-                    </v-list-item-icon>
-
-                    <v-list-item-content>
-                        <v-list-item-subtitle>
-                            <em>
-                                Moved to Manchester
-                            </em>
-                        </v-list-item-subtitle>
-                    </v-list-item-content>
-                </v-list-item>
-
-                <v-list-item>
-                    <v-list-item-action></v-list-item-action>
-
-                    <v-list-item-content>
-                        <v-list-item-title>London</v-list-item-title>
-                        <v-list-item-subtitle>Tui Interactive Media, London</v-list-item-subtitle>
-                    </v-list-item-content>
-                </v-list-item>
-
-                <v-list-item>
-                    <v-list-item-icon>
-                        <v-icon color="#FA503A">
-                            mdi-transit-connection
-                        </v-icon>
-                    </v-list-item-icon>
-
-                    <v-list-item-content>
-                        <v-list-item-subtitle>
-                            <em>
-                                Moved to London
-                            </em>
-                        </v-list-item-subtitle>
-                    </v-list-item-content>
-                </v-list-item>
-
-                <v-list-item>
-                    <v-list-item-action></v-list-item-action>
-
-                    <v-list-item-content>
-                        <v-list-item-title>Manchester</v-list-item-title>
-                        <v-list-item-subtitle>Mojofuel, Manchester</v-list-item-subtitle>
-                    </v-list-item-content>
-                </v-list-item>
-
-                <v-list-item>
-                    <v-list-item-icon>
-                        <v-icon color="#FA503A">
-                            mdi-school
-                        </v-icon>
-                    </v-list-item-icon>
-
-                    <v-list-item-content>
-                        <v-list-item-title>Lancaster</v-list-item-title>
-                        <v-list-item-subtitle>Software Engineering, First Class Honours</v-list-item-subtitle>
                     </v-list-item-content>
                 </v-list-item>
             </v-list>
