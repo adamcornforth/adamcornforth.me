@@ -1,7 +1,7 @@
 <template>
     <v-card
                 max-width="375"
-                class="mx-auto my-3"
+                class="mx-10 my-10"
         >
             <v-img
                     src="me.jpg"
@@ -50,7 +50,7 @@
                 </v-list-item>
 
                 <v-list-item
-                        href="https://github.com/adamcornforth/adamcornforth.me"
+                        href="https://github.com/adamcornforth"
                         target="_blank">
                     <v-list-item-icon>
                         <v-icon color="#FA503A">

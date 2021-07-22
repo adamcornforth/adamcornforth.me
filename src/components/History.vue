@@ -1,7 +1,7 @@
 <template>
     <v-card
             max-width=""
-            class="mx-auto my-3"
+            class="my-10 mx-10"
     >
         <v-list class="pa-0">
             <v-list-item>
