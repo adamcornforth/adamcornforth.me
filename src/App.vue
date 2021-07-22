@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <v-img
+      class="px-3"
       src="harpur-hill.jpg"
       gradient="to bottom, rgba(203,58,250,.3), rgba(0, 0, 0,.6)"
     >

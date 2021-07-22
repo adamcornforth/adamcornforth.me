@@ -1,7 +1,8 @@
 <template>
     <v-card
-                max-width="375"
-                class="mx-10 my-10"
+            max-width="375px"
+            width="100%"
+            class="mt-3 mx-auto"
         >
             <v-img
                     src="me.jpg"
